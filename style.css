@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+	font-size: 18px;
+}
+
+h1 {
+	color: grey;
+}
+
+input[type=button] {
+	padding: 10px 20px;
+	background-color: lightblue;
+	color: yellow;
+	outline: none;
+}
+
+.playground {
+	margin-top: 20px;
+	display: inline-block;
+	border: 2px solid black;
+}
+
+.row {
+	height: 75px;
+}
+
+.cell {
+	background-size: cover;
+	display: inline-block;
+	border: 2px solid black;
+	width: 75px;
+	height: 75px;
+}
+
+.hover-cell {
+	background-image: none !important;
+	background: lightblue;
+}
